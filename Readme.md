@@ -25,9 +25,6 @@ Below is a list of sentiment analysis projects completed in this repository, wit
   - Metrics: Accuracy, precision, recall, F1-score, and confusion matrix.
   - Custom metrics for `Positive` class were initially incorrect (omitted `Neutral` reviews in calculations) but corrected to align with scikit-learn’s `classification_report`.
   - Visualizations: Histograms, box plots, violin plots, and scatter plots explored data distribution; confusion matrices visualized model performance.
-- **Key Findings**:
-  - Logistic Regression outperformed Naive Bayes, especially for minority classes.
-  - Class imbalance significantly impacted `Neutral` and `Negative` performance, suggesting the need for techniques like class weighting or resampling.
 - **Files**:
   - `amazon_reviews_sentiment_analysis.ipynb`: Jupyter notebook with data preprocessing, EDA, modeling, and evaluation.
   - `data/`: Directory for the dataset (not included in the repo due to size; download from [Kaggle](https://www.kaggle.com/datasets/saurav9786/amazon-product-reviews)).
