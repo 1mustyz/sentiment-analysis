@@ -28,10 +28,6 @@ Below is a list of sentiment analysis projects completed in this repository, wit
 - **Files**:
   - `amazon_reviews_sentiment_analysis.ipynb`: Jupyter notebook with data preprocessing, EDA, modeling, and evaluation.
   - `data/`: Directory for the dataset (not included in the repo due to size; download from [Kaggle](https://www.kaggle.com/datasets/saurav9786/amazon-product-reviews)).
-- **Future Improvements**:
-  - Implement text preprocessing (e.g., stop word removal, lemmatization).
-  - Add class weighting or oversampling to address imbalance.
-  - Experiment with advanced models (e.g., Random Forest, deep learning with BERT).
 
 ## Future Projects
 
